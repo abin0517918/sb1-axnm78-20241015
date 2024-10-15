@@ -49,7 +49,7 @@ function App() {
         <EnvironmentPage onBack={handleBackToHome} />
       )}
       {currentVideoIndex !== null && (
-        <div className="w-full h-full">
+        <div className="absolute inset-0 z-50">
           <VideoPlayer
             src={videos[currentVideoIndex]}
             onEnded={handleVideoEnd}
