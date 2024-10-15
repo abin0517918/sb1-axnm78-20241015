@@ -46,6 +46,9 @@ const EnvironmentPage: React.FC<EnvironmentPageProps> = ({ onBack }) => {
       className="absolute top-4 left-4 z-50 text-white hover:text-gray-300 transition-colors"
     >
       <ArrowLeft className="w-8 h-8" />
+      <span className="text-white opacity-0 hover:opacity-100 transition-opacity">
+          回前頁
+      </span>
     </button>
   );
 

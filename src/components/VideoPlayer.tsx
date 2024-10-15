@@ -39,6 +39,9 @@ const VideoPlayer: React.FC<VideoPlayerProps> = ({ src, onEnded, onError, onBack
         className="absolute top-4 left-4 z-10 text-white hover:text-gray-300 transition-colors"
       >
         <ArrowLeft className="w-8 h-8" />
+        <span className="text-white opacity-0 hover:opacity-100 transition-opacity">
+          回前頁
+        </span>
       </button>
       <video
         ref={videoRef}
